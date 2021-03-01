@@ -8,6 +8,6 @@ class Phonebook(models.Model):
 
 
     def __str__(self):
-        return  self.name + '    ' +self.number
+        return  self.name + '  ===  ' +self.number 
 
 # Create your models here.
